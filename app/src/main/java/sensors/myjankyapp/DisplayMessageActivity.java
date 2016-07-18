@@ -1,5 +1,8 @@
 package sensors.myjankyapp;
 
+import android.app.AlertDialog;
+import android.bluetooth.BluetoothAdapter;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -40,8 +43,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
 
         RelativeLayout layout = (RelativeLayout) findViewById(R.id.content);
         layout.addView(textView);
-
-
     }
 
 }
