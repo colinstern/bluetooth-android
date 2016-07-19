@@ -19,7 +19,7 @@ import android.widget.EditText;
 
 import java.util.Set;
 
-public class MyGoddamnActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
     public final static String EXTRA_MESSAGE = "sensors.myjankyapp.MESSAGE";
 
     @Override
